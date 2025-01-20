@@ -1,0 +1,33 @@
+package com.controleDeEstoque.ControleDeEstoque.controllers;
+
+import java.time.LocalDate;
+
+import com.controleDeEstoque.ControleDeEstoque.produto.Categoria;
+import com.controleDeEstoque.ControleDeEstoque.produto.Fornecedor;
+import com.controleDeEstoque.ControleDeEstoque.produto.Produto;
+
+public record DadosListarProdutos(
+		Long id, 
+		String nome,
+		int quantidade,
+		float preco,
+		Categoria categoria,
+		String lote,
+		LocalDate validade,
+		Fornecedor fornecedor,
+		boolean ativo
+		) {
+	
+	public DadosListarProdutos(Produto produto) {
+		produto.getId();
+		produto.getNome();
+		produto.getQuantidade();
+		produto.getPreco();
+		produto.getCategoria();
+		produto.getLote();
+		produto.getValidade();
+		produto.getFornecedor();
+		
+	}
+
+}

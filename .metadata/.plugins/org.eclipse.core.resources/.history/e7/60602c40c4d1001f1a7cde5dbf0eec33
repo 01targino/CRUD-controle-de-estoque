@@ -1,0 +1,7 @@
+package com.controleDeEstoque.ControleDeEstoque.produto;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProdutoRepositorio extends J{JpaRepository<Produto, Long>
+
+}

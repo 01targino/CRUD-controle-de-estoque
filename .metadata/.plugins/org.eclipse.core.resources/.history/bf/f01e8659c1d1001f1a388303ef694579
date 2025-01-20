@@ -1,0 +1,5 @@
+package com.controleDeEstoque.ControleDeEstoque.controllers;
+
+public record DadosAdicionarProduto() {
+
+}

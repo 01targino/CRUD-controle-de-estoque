@@ -1,0 +1,5 @@
+package com.controleDeEstoque.ControleDeEstoque.produto;
+
+public record DadosAtualizarProduto() {
+
+}

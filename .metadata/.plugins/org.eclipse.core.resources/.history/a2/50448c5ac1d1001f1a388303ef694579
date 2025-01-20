@@ -1,0 +1,8 @@
+package com.controleDeEstoque.ControleDeEstoque.controllers;
+
+public enum Fornecedor {
+
+	FORNECEDOR_A,
+	FORNECEDOR_B
+	
+}
