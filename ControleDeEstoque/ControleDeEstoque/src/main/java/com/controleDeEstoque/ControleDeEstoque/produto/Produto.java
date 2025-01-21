@@ -72,4 +72,13 @@ public class Produto {
 		}
 	}
 
+	public void desativar() {
+		this.ativo = false;
+	}
+
+	public void ativar() {
+		this.ativo = true;
+		
+	}
+
 }

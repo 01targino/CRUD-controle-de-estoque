@@ -1,0 +1,11 @@
+package com.controleDeEstoque.ControleDeEstoque.produto;
+
+import java.util.Collection;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProdutoRepositorio extends JpaRepository<Produto, Long> {
+
+	Collection<DadosListarProdutos> findAllByAtivoTrue();
+
+}

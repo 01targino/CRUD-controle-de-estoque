@@ -1,5 +1,0 @@
-package com.controleDeEstoque.ControleDeEstoque.controllers;
-
-public enum Categoria {
-
-}

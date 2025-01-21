@@ -35,7 +35,7 @@ public class ProdutoController {
 	
 	@GetMapping
 	public List<DadosListarProdutos> listarProdutos() {
-		return repositorio.findAll().stream().map(DadosListarProdutos::new).toList();
+		return repositorio.findAllByAtivoTrue().stream().map(DadosListarProdutos::new).toList();
 	}
 	
 	@PutMapping
@@ -50,5 +50,21 @@ public class ProdutoController {
 	public void apagarProduto(@PathVariable Long id) {
 		repositorio.deleteById(id);
 	}
+	
+	@DeleteMapping("desativar/{id}")
+	@Transactional
+	public void desativar(@PathVariable Long id) {
+		
+		var produto = repositorio.getReferenceById(id);
+		produto.desativar();
+	}
+	
+	@PutMapping("ativar/{id}")
+	@Transactional
+	public void ativar(@PathVariable Long id) {
+		var produto = repositorio.getReferenceById(id);
+		produto.ativar();
+	}
+	
 	
 }

@@ -1,5 +1,0 @@
-package com.controleDeEstoque.ControleDeEstoque.produto;
-
-public class ProdutoRepositorio extends  {
-
-}

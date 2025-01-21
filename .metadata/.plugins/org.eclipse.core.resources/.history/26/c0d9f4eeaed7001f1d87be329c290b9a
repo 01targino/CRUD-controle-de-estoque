@@ -1,0 +1,70 @@
+package com.controleDeEstoque.ControleDeEstoque.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.controleDeEstoque.ControleDeEstoque.produto.DadosAdicionarProduto;
+import com.controleDeEstoque.ControleDeEstoque.produto.DadosAtualizarProduto;
+import com.controleDeEstoque.ControleDeEstoque.produto.DadosListarProdutos;
+import com.controleDeEstoque.ControleDeEstoque.produto.Produto;
+import com.controleDeEstoque.ControleDeEstoque.produto.ProdutoRepositorio;
+
+import jakarta.transaction.Transactional;
+import jakarta.validation.Valid;
+
+@RestController
+@RequestMapping("/produtos")
+public class ProdutoController {
+	
+	@Autowired
+	private ProdutoRepositorio repositorio;
+
+	@PostMapping
+	public void adicionarProduto(@RequestBody @Valid DadosAdicionarProduto dados) {
+		repositorio.save(new Produto(dados));
+	}
+	
+	@GetMapping
+	public List<DadosListarProdutos> listarProdutos() {
+		return repositorio.findAll().stream().map(DadosListarProdutos::new).toList();
+	}
+	
+	@PutMapping
+	@Transactional
+	public void atualizarProduto(@RequestBody @Valid DadosAtualizarProduto dados) {
+		var produto = repositorio.getReferenceById(dados.id());
+		produto.atualizarInformacoes(dados);
+	}
+	
+	@DeleteMapping("/{id}")
+	@Transactional
+	public void apagarProduto(@PathVariable Long id) {
+		repositorio.deleteById(id);
+	}
+	
+	@DeleteMapping("desativar/{id}")
+	@Transactional
+	public void desativar(@PathVariable Long id) {
+		
+		var produto = repositorio.getReferenceById(id);
+		produto.desativar();
+	}
+	
+	@PostMapping("ativar/{id^}")
+	@Transactional
+	public void ativar(@PathVariable Long id) {
+		var produto = repositorio.getReferenceById(id);
+		produto.ativar();
+	}
+	
+	
+}
