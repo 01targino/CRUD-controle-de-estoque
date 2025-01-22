@@ -6,6 +6,7 @@ import java.time.LocalDate;
 import jakarta.persistence.Enumerated;
 import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 
 public record DadosAdicionarProduto(
@@ -13,6 +14,7 @@ public record DadosAdicionarProduto(
 		@NotBlank
 		String nome,
 		
+		@NotNull(message = "insira a quantidade.")
 		Integer quantidade,
 		
 		@Positive
@@ -21,6 +23,7 @@ public record DadosAdicionarProduto(
 		@Enumerated
 		Categoria categoria,
 		
+		@NotNull(message = "insira o lote")
 		String lote,
 		
 		@Future
