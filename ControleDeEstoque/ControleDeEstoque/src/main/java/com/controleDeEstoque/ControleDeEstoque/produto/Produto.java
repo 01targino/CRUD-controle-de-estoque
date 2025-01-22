@@ -35,6 +35,7 @@ public class Produto {
 		this.lote = dados.lote();
 		this.validade = dados.validade();
 		this.fornecedor = dados.fornecedor();
+		this.ativo = true;
 	}
 
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)

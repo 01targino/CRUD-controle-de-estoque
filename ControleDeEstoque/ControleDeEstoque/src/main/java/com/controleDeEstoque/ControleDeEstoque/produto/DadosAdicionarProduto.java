@@ -10,7 +10,8 @@ public record DadosAdicionarProduto(
 		Categoria categoria,
 		String lote,
 		LocalDate validade,
-		Fornecedor fornecedor
+		Fornecedor fornecedor,
+		boolean ativo
 		) {
 
 

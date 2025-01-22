@@ -386,3 +386,81 @@
 2025-01-21 01:22:53,110 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-01-21 01:22:53,112 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
 2025-01-22 10:32:46,827 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-01-22 11:04:23,137 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-01-22 11:04:50,713 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.15; built: 2024-11-05T19:44:57.623Z; git: 8281ae9740d4b4225e8166cc476bad237c70213a; jvm 21.0.5+11-LTS
+2025-01-22 11:04:50,754 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@6027c483{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@5ad37250{STARTED}}
+2025-01-22 11:04:50,755 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-01-22 11:04:50,799 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@39e38ae5{HTTP/1.1, (http/1.1)}{127.0.0.1:54982}
+2025-01-22 11:04:50,815 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@2ba4d102{STARTING}[12.0.15,sto=0] @68663ms
+2025-01-22 11:05:59,949 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:05:59,964 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:05:59,979 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:06:07,887 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:06:07,894 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:06:07,898 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:07:15,259 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:07:15,263 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:07:15,265 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:07:33,278 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:07:33,283 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:07:33,287 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:09:19,044 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:09:19,049 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:09:19,051 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:10:43,679 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:10:43,684 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:10:43,686 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:12:38,011 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:12:38,022 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:12:38,026 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:16:29,870 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:16:29,876 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:16:29,879 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:18:36,906 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:18:36,913 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:18:36,916 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:19:04,458 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:19:04,469 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:19:04,471 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:19:16,567 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:19:16,573 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:19:16,575 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:19:28,063 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:19:28,066 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:19:28,068 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:22:56,704 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:22:56,710 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:22:56,712 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:23:57,045 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:23:57,049 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:23:57,051 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:23:58,900 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:23:58,904 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:23:58,905 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:24:23,551 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:24:23,555 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:24:23,556 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:25:26,218 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:25:26,222 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:25:26,223 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:26:00,890 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:26:00,894 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:26:00,897 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:35:52,404 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:35:52,434 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:35:52,437 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:49:48,766 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:49:48,819 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:49:48,821 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:52:42,043 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:52:42,061 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:52:42,064 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 11:58:44,236 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:58:44,246 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 11:58:44,248 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 12:00:35,188 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 12:00:35,211 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 12:00:35,213 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
+2025-01-22 12:06:37,133 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 12:06:37,145 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-22 12:06:37,148 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\isabe\Documents\CRUD-CONTROLE-DE-ESTOQUE\ControleDeEstoque\ControleDeEstoque\src\test\resources
