@@ -78,7 +78,9 @@ public class ProdutoController {
 	@PutMapping("/ativar/{id}")
 	@Transactional
 	public ResponseEntity<Void> ativarProduto(@PathVariable Long id) {
+		
 		var produto = repositorio.getReferenceById(id);
+		
 		produto.ativar();
 		
 		return ResponseEntity.noContent().build();
